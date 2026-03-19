@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "nanobanana": {
+      "command": "uvx",
+      "args": ["nanobanana-mcp-server@latest"],
+      "env": {
+        "GEMINI_API_KEY": "TU_GEMINI_API_KEY_AQUI"
+      }
+    },
+    "stitch": {
+      "command": "npx",
+      "args": ["-y", "stitch-mcp"],
+      "env": {
+        "GOOGLE_CLOUD_PROJECT": "TU_GOOGLE_CLOUD_PROJECT_ID_AQUI"
+      }
+    },
+    "21st-dev-magic": {
+      "command": "npx",
+      "args": ["-y", "@21st-dev/magic@latest"],
+      "env": {
+        "API_KEY": "TU_21ST_DEV_API_KEY_AQUI"
+      }
+    }
+  }
+}
